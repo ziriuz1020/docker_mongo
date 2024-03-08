@@ -20,6 +20,7 @@ services:
     depends_on:
       - mongo
     environment:
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: false
       ME_CONFIG_BASICAUTH_USERNAME: spacewave
       ME_CONFIG_BASICAUTH_PASSWORD: SpaceWave.123.
       ME_CONFIG_MONGODB_PORT: 27017
